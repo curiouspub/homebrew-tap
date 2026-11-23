@@ -3,28 +3,28 @@
 class Curiouspub < Formula
   desc "Pack an Astro project, upload it, and stream the build"
   homepage "https://curious.pub/"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/curiouspub/cli/releases/download/v0.1.7/curious_0.1.7_darwin_amd64.tar.gz"
-      sha256 "4f32566bffd9e69575a8adc518a34f0e0b00af1cad39edf236864ac628b5cde1"
+      url "https://github.com/curiouspub/cli/releases/download/v0.1.8/curious_0.1.8_darwin_amd64.tar.gz"
+      sha256 "28b68e89465efa180ad93c1614fd6f10048ebf5c614e939fc34e635beab0f255"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/curiouspub/cli/releases/download/v0.1.7/curious_0.1.7_darwin_arm64.tar.gz"
-      sha256 "eac77c3b27e29e4341b5975c363e3146e022f8d7f8f433a4e96b13e5f9f4ca04"
+      url "https://github.com/curiouspub/cli/releases/download/v0.1.8/curious_0.1.8_darwin_arm64.tar.gz"
+      sha256 "271b0abd955fff1895ac89d0295d821b648462be97d80d44e285801328580bd6"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/curiouspub/cli/releases/download/v0.1.7/curious_0.1.7_linux_amd64.tar.gz"
-      sha256 "412ab5ee5f6580870406a5f889fbe710bfd3fd5cfa526934040dc9a470ef2159"
+      url "https://github.com/curiouspub/cli/releases/download/v0.1.8/curious_0.1.8_linux_amd64.tar.gz"
+      sha256 "a07e3d8a9d463bb99d0b6d5e6c4754351720f67146b6c953c01266b9d653d716"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/curiouspub/cli/releases/download/v0.1.7/curious_0.1.7_linux_arm64.tar.gz"
-      sha256 "28600be8294999dd5e346fddf00ff04fded5a0f12f643ab6b6430cdd0016facc"
+      url "https://github.com/curiouspub/cli/releases/download/v0.1.8/curious_0.1.8_linux_arm64.tar.gz"
+      sha256 "87952a88a2bcae9d2a23b0252757f6503c58cce9a66bd4ffb978b454c7439d22"
     end
   end
 
